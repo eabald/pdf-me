@@ -10,6 +10,8 @@ Main reason behind that is in significant business need for that kind of solutio
 
 ## Product overview - MVP phase
 
+It's important to note that this overview consider only MVP stage of the system. This section consists list of all system parts needed for this stage with short explanation of its role, without architectural or implementation details.
+
 ## Architecture
 
 ## Development Phases
