@@ -12,13 +12,23 @@ Main reason behind that is in significant business need for that kind of solutio
 
 It's important to note that this overview consider only MVP stage of the system. This section consists list of all system parts needed for this stage with short explanation of its role, without architectural or implementation details.
 
+### Solution overview
+
+Main purpose of the system is to delivery to users SaaS system allowing to generate pdfs in external applications only by providing html templates. In mvp solution user have to add prepared templates in user panel, generates there api keys and connect their application to api using them.
+
 ### Homepage
 
+Homepage is least complicated part of whole system, but also is most client facing part of it. In this case it have to be most reliable. It will contain basic product information, pricing and so on. Also it won't be connected with other parts of the system in other than with links. There's nothing fancy in it.
+
 ### User Panel
+
+User panel is another client facing element of the system. Its role is to allow user to manage theirs pdfs templates, their limits, generate api keys and access their accounts in general. This part will be strictly connected with other elements of the system like auth, billing and account service.
 
 ### Auth service
 
 ### Billing service
+
+### Account service
 
 ### Pdf generation API
 
