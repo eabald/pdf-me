@@ -6,7 +6,7 @@ This document contains initial, high level overview of SaaS product PDF-ME. Also
 
 This project has two main purposes. First of all to introduce the product, SaaS system providing high availability API allowing to generate pdf for external applications including all necessary elements starting form homepage to API itself. Secondly to create open source solution to utilise own pdf generating api.
 
-Main reason behind that is in significant business need for that kind of solution and lack of similar software available on MIT or Apache licenses.
+Main reason behind that is in significant business need for that kind of solution and lack of similar software available on MIT or Apache licenses. This problem lead to strange solutions like generating pdfs on frontend which may in some case works but in others may produce to unmaintainable solutions.
 
 ## Product overview - MVP phase
 
