@@ -24,11 +24,13 @@ Homepage is least complicated part of whole system, but also is most client faci
 
 User panel is another client facing element of the system. Its role is to allow user to manage theirs pdfs templates, their limits, generate api keys and access their accounts in general. This part will be strictly connected with other elements of the system like auth, billing and account service.
 
-### Auth service
+### Backend api
 
-### Billing service
+This part is main backend api responsible for users auth, processing payments, fetching account data an so on. Its role is to handle users i/o and all external integrations like payments systems.
 
-### Account service
+### Scheduler service
+
+Purpose of schedular service is to handle all cron jobs, clearing caches and users limits. Mostly updating dbs.
 
 ### Pdf generation API
 
