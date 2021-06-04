@@ -34,6 +34,8 @@ Purpose of schedular service is to handle all cron jobs, clearing caches and use
 
 ### Pdf generation API
 
+Main part of the system is pff generation api. 
+
 ## Architecture
 
 ## Development Phases
