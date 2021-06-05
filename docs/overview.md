@@ -34,7 +34,7 @@ Purpose of schedular service is to handle all cron jobs, clearing caches and use
 
 ### Pdf generation API
 
-Main part of the system is pff generation api. 
+Main part of the system is pff generation api. Its role is to generate pdf from templates provided by client and populate it with data from request body. Additionally it has to work with conjuction of other system elements, mostly users limits and so on.
 
 ## Architecture
 
