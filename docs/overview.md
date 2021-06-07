@@ -38,4 +38,21 @@ Main part of the system is pff generation api. Its role is to generate pdf from 
 
 ## Architecture
 
+Project will be based on hybrid architecture using some smaller services but in the other hand calling them micro-services is not most accurate in this case.
+
+![Architecture Dependencies](images/architecture-dependencies.png)
+
+Diagram above shows all connections between elements of the system. Users input can only reach homepage an User panel, requests for generating documents can access only dedicated api. All other parts of the system are separated from the users.
+
 ## Development Phases
+
+Described here development phases considers only creating MVP version of the system an should end in first release of the product.
+
+1. Architecture design phase.
+2. Env setup and init, test envs.
+3. Backend api auth development.
+4. Backend templates api.
+5. User panel auth and templates api.
+6. Payments integration and schedular.
+7. Homepage.
+8. MVP deployment, prod env.
