@@ -1,9 +1,6 @@
 [submodule "panel"]
 	path = panel
 	url = git@github.com:eabald/pdf-me-panel.git
-[submodule "homepage"]
-	path = homepage
-	url = git@github.com:eabald/pdf-me-homepage.git
 [submodule "api"]
 	path = api
 	url = git@github.com:eabald/pdf-me-homepage.git
