@@ -1,0 +1,27 @@
+{
+  "name": "pdf-me",
+  "version": "0.0.1",
+  "description": "SaaS system for generating pdfs for external apps",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eabald/pdf-me.git"
+  },
+  "keywords": [
+    "pdf",
+    "SaaS",
+    "api"
+  ],
+  "author": "Maciej Krawczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eabald/pdf-me/issues"
+  },
+  "homepage": "https://github.com/eabald/pdf-me#readme"
+}
