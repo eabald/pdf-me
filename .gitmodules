@@ -10,3 +10,6 @@
 [submodule "schedular"]
 	path = schedular
 	url = git@github.com:eabald/pdf-me-schedular.git
+[submodule "api"]
+	path = api
+	url = git@github.com:eabald/pdf-me-api.git
