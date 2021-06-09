@@ -7,9 +7,6 @@
 [submodule "homepage"]
 	path = homepage
 	url = git@github.com:eabald/pdf-me-homepage.git
-[submodule "api"]
-	path = api
-	url = git@github.com:eabald/pdf-me-api.git
 [submodule "schedular"]
 	path = schedular
 	url = git@github.com:eabald/pdf-me-schedular.git
