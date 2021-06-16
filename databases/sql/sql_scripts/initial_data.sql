@@ -39,7 +39,7 @@ CREATE TABLE `limits` (
 
 LOCK TABLES `limits` WRITE;
 /*!40000 ALTER TABLE `limits` DISABLE KEYS */;
-INSERT INTO `limits` VALUES (1,-3,'2021-06-15 20:44:05',1);
+INSERT INTO `limits` VALUES (1,10,'2021-06-15 20:44:05',1);
 /*!40000 ALTER TABLE `limits` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -58,7 +58,7 @@ CREATE TABLE `pdfs` (
   PRIMARY KEY (`id`),
   KEY `user_id_fk_idx` (`user_id`),
   CONSTRAINT `` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -67,7 +67,7 @@ CREATE TABLE `pdfs` (
 
 LOCK TABLES `pdfs` WRITE;
 /*!40000 ALTER TABLE `pdfs` DISABLE KEYS */;
-INSERT INTO `pdfs` VALUES (1,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623609321729.pdf',NULL,1),(2,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623609768263.pdf',NULL,1),(3,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623609904199.pdf','2021-06-13 18:45:04',1),(4,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790350116.pdf','2021-06-15 20:52:30',1),(5,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790365224.pdf','2021-06-15 20:52:45',1),(6,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790402002.pdf','2021-06-15 20:53:22',1),(7,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790453477.pdf','2021-06-15 20:54:13',1),(8,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790465138.pdf','2021-06-15 20:54:25',1),(9,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790471741.pdf','2021-06-15 20:54:31',1),(10,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790473451.pdf','2021-06-15 20:54:33',1),(11,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790475172.pdf','2021-06-15 20:54:35',1),(12,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790476870.pdf','2021-06-15 20:54:36',1),(13,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790478615.pdf','2021-06-15 20:54:38',1),(14,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790480322.pdf','2021-06-15 20:54:40',1),(15,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790521978.pdf','2021-06-15 20:55:21',1),(16,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790523847.pdf','2021-06-15 20:55:23',1),(17,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790525896.pdf','2021-06-15 20:55:25',1),(18,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790533814.pdf','2021-06-15 20:55:33',1),(19,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790542952.pdf','2021-06-15 20:55:42',1),(20,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790551775.pdf','2021-06-15 20:55:51',1),(21,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790594140.pdf','2021-06-15 20:56:34',1),(22,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790622302.pdf','2021-06-15 20:57:02',1);
+INSERT INTO `pdfs` VALUES (1,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623609321729.pdf',NULL,1),(2,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623609768263.pdf',NULL,1),(3,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623609904199.pdf','2021-06-13 18:45:04',1),(4,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790350116.pdf','2021-06-15 20:52:30',1),(5,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790365224.pdf','2021-06-15 20:52:45',1),(6,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790402002.pdf','2021-06-15 20:53:22',1),(7,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790453477.pdf','2021-06-15 20:54:13',1),(8,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790465138.pdf','2021-06-15 20:54:25',1),(9,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790471741.pdf','2021-06-15 20:54:31',1),(10,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790473451.pdf','2021-06-15 20:54:33',1),(11,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790475172.pdf','2021-06-15 20:54:35',1),(12,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790476870.pdf','2021-06-15 20:54:36',1),(13,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790478615.pdf','2021-06-15 20:54:38',1),(14,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790480322.pdf','2021-06-15 20:54:40',1),(15,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790521978.pdf','2021-06-15 20:55:21',1),(16,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790523847.pdf','2021-06-15 20:55:23',1),(17,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790525896.pdf','2021-06-15 20:55:25',1),(18,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790533814.pdf','2021-06-15 20:55:33',1),(19,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790542952.pdf','2021-06-15 20:55:42',1),(20,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790551775.pdf','2021-06-15 20:55:51',1),(21,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790594140.pdf','2021-06-15 20:56:34',1),(22,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623790622302.pdf','2021-06-15 20:57:02',1),(23,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623860083108.pdf','2021-06-16 16:14:43',1),(24,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623868617262.pdf','2021-06-16 18:36:57',1),(25,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623868732719.pdf','2021-06-16 18:38:52',1),(26,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623869026910.pdf','2021-06-16 18:43:46',1),(27,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623869215852.pdf','2021-06-16 18:46:55',1),(28,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623869396040.pdf','2021-06-16 18:49:56',1),(29,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623869678292.pdf','2021-06-16 18:54:38',1),(30,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623870120027.pdf','2021-06-16 19:02:00',1),(31,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623870809533.pdf','2021-06-16 19:13:29',1),(32,'dc49fdc7-cc6a-11eb-8ade-0242ac1200021623870848062.pdf','2021-06-16 19:14:08',1);
 /*!40000 ALTER TABLE `pdfs` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -113,7 +113,7 @@ CREATE TABLE `templates` (
   PRIMARY KEY (`id`),
   KEY `user_id_idx` (`user_id`),
   CONSTRAINT `user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -122,7 +122,7 @@ CREATE TABLE `templates` (
 
 LOCK TABLES `templates` WRITE;
 /*!40000 ALTER TABLE `templates` DISABLE KEYS */;
-INSERT INTO `templates` VALUES (1,'<!DOCTYPE html><html lang=\"en\"><head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title></head><body>{{test}}</body></html>',1,'1a24257a-cc6b-11eb-8ade-0242ac120002');
+INSERT INTO `templates` VALUES (1,'<!DOCTYPE html><html lang=\"en\"><head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title></head><body>{{test}}</body></html>',1,'1a24257a-cc6b-11eb-8ade-0242ac120002'),(2,'<!DOCTYPE html><html lang=\"en\"><head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title> <style>.page{page-break-before: always;}</style></head><body> <div class=\"page\"> 1{{test}}</div><div class=\"page\"> 2 </div><div class=\"page\"> 3 </div><div class=\"page\"> 4 </div></body></html>',1,'a3e8ec3f-cebd-11eb-a1aa-0242ac120002'),(3,'<div style=\"width: 100%; font-size: 14px\"><span class=\"date\"></span>    Page <span class=\"pageNumber\"></span> of <span class=\"totalPages\"></span></div>',1,'a39a4ea7-ced1-11eb-a1aa-0242ac120002');
 /*!40000 ALTER TABLE `templates` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -197,4 +197,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-15 23:04:23
+-- Dump completed on 2021-06-16 21:27:33
