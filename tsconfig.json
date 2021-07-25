@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "rootDir": "."
+  },
+  "files": [],
+  "references": [
+    { "path": "./api-gateway" },
+    { "path": "./homepage" },
+    { "path": "./user-panel" }
+  ]
+}

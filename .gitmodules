@@ -37,3 +37,9 @@
 [submodule "pdf/files"]
 	path = pdf/files
 	url = git@github.com:eabald/pdf-me-pdf-files.git
+[submodule "users/sessions"]
+	path = users/sessions
+	url = git@github.com:eabald/pdf-me-users-sessions.git
+[submodule "messages/emails"]
+	path = messages/emails
+	url = git@github.com:eabald/pdf-me-messages-emails.git
