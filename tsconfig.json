@@ -6,6 +6,8 @@
   "references": [
     { "path": "./api-gateway" },
     { "path": "./homepage" },
-    { "path": "./user-panel" }
+    { "path": "./user-panel" },
+    { "path": "./users/user-data" },
+    { "path": "./users/auth" }
   ]
 }
