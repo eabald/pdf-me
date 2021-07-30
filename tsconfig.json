@@ -7,7 +7,7 @@
     { "path": "./api-gateway" },
     { "path": "./homepage" },
     { "path": "./user-panel" },
-    { "path": "./users/user-data" },
+    { "path": "./users/users-data" },
     { "path": "./users/auth" }
   ]
 }
