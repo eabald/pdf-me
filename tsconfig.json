@@ -8,6 +8,7 @@
     { "path": "./homepage" },
     { "path": "./user-panel" },
     { "path": "./users/users-data" },
-    { "path": "./users/auth" }
+    { "path": "./users/auth" },
+    { "path": "./messages/emails" }
   ]
 }
