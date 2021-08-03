@@ -9,6 +9,7 @@
     { "path": "./user-panel" },
     { "path": "./users/users-data" },
     { "path": "./users/auth" },
-    { "path": "./messages/emails" }
+    { "path": "./messages/emails" },
+    { "path": "./pdf/templates" }
   ]
 }
