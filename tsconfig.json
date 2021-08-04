@@ -1,26 +1,12 @@
 {
-  "compilerOptions": {
-    "rootDir": ".",
-    "module": "commonjs",
-    "declaration": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "target": "es2017",
-    "sourceMap": true,
-    "incremental": true,
-    "skipLibCheck": true,
-    "composite": true
-  },
   "files": [],
   "references": [
-    { "path": "./api-gateway" },
-    { "path": "./homepage" },
-    { "path": "./user-panel" },
-    { "path": "./users/users-data" },
-    { "path": "./users/auth" },
-    { "path": "./messages/emails" },
-    { "path": "./pdf/templates" }
+    { "path": "./packages/api-gateway" },
+    { "path": "./packages/homepage" },
+    { "path": "./packages/user-panel" },
+    { "path": "./packages/users/users-data" },
+    { "path": "./packages/users/auth" },
+    { "path": "./packages/messages/emails" },
+    { "path": "./packages/pdf/templates" }
   ]
 }
