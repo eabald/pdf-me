@@ -19,9 +19,6 @@
 [submodule "packages/homepage"]
 	path = packages/homepage
 	url = git@github.com:eabald/pdf-me-homepage.git
-[submodule "pacages/users/sessions"]
-	path = pacages/users/sessions
-	url = git@github.com:eabald/pdf-me-users-sessions.git
 [submodule "packages/pdf/files"]
 	path = packages/pdf/files
 	url = git@github.com:eabald/pdf-me-pdf-files.git
@@ -43,3 +40,9 @@
 [submodule "packages/users/limits"]
 	path = packages/users/limits
 	url = git@github.com:eabald/pdf-me-users-limits.git
+[submodule "packages/shared"]
+	path = packages/shared
+	url = git@github.com:eabald/pdf-me-shared.git
+[submodule "packages/users/sessions"]
+	path = packages/users/sessions
+	url = git@github.com:eabald/pdf-me-users-sessions.git
