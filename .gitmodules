@@ -1,45 +1,45 @@
-[submodule "api-gateway"]
-	path = api-gateway
-	url = git@github.com:eabald/pdf-me-api-gateway.git
-[submodule "homepage"]
-	path = homepage
-	url = git@github.com:eabald/pdf-me-homepage.git
-[submodule "user-panel"]
-	path = user-panel
-	url = git@github.com:eabald/pdf-me-user-panel.git
-[submodule "schedular"]
-	path = schedular
-	url = git@github.com:eabald/pdf-me-schedular.git
-[submodule "users/users-data"]
-	path = users/users-data
-	url = git@github.com:eabald/pdf-me-users-users-data.git
-[submodule "users/auth"]
-	path = users/auth
-	url = git@github.com:eabald/pdf-me-users-auth.git
-[submodule "users/limits"]
-	path = users/limits
-	url = git@github.com:eabald/pdf-me-users-limits.git
-[submodule "billing/subscriptions"]
-	path = billing/subscriptions
-	url = git@github.com:eabald/pdf-me-billing-subscriptions.git
-[submodule "billing/payments"]
-	path = billing/payments
-	url = git@github.com:eabald/pdf-me-billing-payments.git
-[submodule "billing/billings"]
-	path = billing/billings
-	url = git@github.com:eabald/pdf-me-billing-billings.git
-[submodule "pdf/templates"]
-	path = pdf/templates
+[submodule "packages/pdf/templates"]
+	path = packages/pdf/templates
 	url = git@github.com:eabald/pdf-me-pdf-templates.git
-[submodule "pdf/document-generation"]
-	path = pdf/document-generation
-	url = git@github.com:eabald/pdf-me-pdf-document-generation.git
-[submodule "pdf/files"]
-	path = pdf/files
-	url = git@github.com:eabald/pdf-me-pdf-files.git
-[submodule "users/sessions"]
-	path = users/sessions
-	url = git@github.com:eabald/pdf-me-users-sessions.git
-[submodule "messages/emails"]
-	path = messages/emails
+[submodule "packages/users/users-data"]
+	path = packages/users/users-data
+	url = git@github.com:eabald/pdf-me-users-users-data.git
+[submodule "packages/api-gateway"]
+	path = packages/api-gateway
+	url = git@github.com:eabald/pdf-me-api-gateway.git
+[submodule "packages/users/auth"]
+	path = packages/users/auth
+	url = git@github.com:eabald/pdf-me-users-auth.git
+[submodule "packages/messages/emails"]
+	path = packages/messages/emails
 	url = git@github.com:eabald/pdf-me-messages-emails.git
+[submodule "packages/user-panel"]
+	path = packages/user-panel
+	url = git@github.com:eabald/pdf-me-user-panel.git
+[submodule "packages/homepage"]
+	path = packages/homepage
+	url = git@github.com:eabald/pdf-me-homepage.git
+[submodule "pacages/users/sessions"]
+	path = pacages/users/sessions
+	url = git@github.com:eabald/pdf-me-users-sessions.git
+[submodule "packages/pdf/files"]
+	path = packages/pdf/files
+	url = git@github.com:eabald/pdf-me-pdf-files.git
+[submodule "packages/pdf/document-generation"]
+	path = packages/pdf/document-generation
+	url = git@github.com:eabald/pdf-me-pdf-document-generation.git
+[submodule "packages/billing/billings"]
+	path = packages/billing/billings
+	url = git@github.com:eabald/pdf-me-billing-billings.git
+[submodule "packages/billing/payments"]
+	path = packages/billing/payments
+	url = git@github.com:eabald/pdf-me-billing-payments.git
+[submodule "packages/billing/subscriptions"]
+	path = packages/billing/subscriptions
+	url = git@github.com:eabald/pdf-me-billing-subscriptions.git
+[submodule "packages/schedular"]
+	path = packages/schedular
+	url = git@github.com:eabald/pdf-me-schedular.git
+[submodule "packages/users/limits"]
+	path = packages/users/limits
+	url = git@github.com:eabald/pdf-me-users-limits.git
