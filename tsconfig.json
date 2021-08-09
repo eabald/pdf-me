@@ -7,6 +7,7 @@
     { "path": "./packages/users/users-data" },
     { "path": "./packages/users/auth" },
     { "path": "./packages/messages/emails" },
-    { "path": "./packages/pdf/templates" }
+    { "path": "./packages/pdf/templates" },
+    { "path": "./packages/pdf/document-generation" }
   ]
 }
