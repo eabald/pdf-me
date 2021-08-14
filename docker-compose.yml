@@ -61,7 +61,7 @@ services:
         - redis
 
   cloudserver:
-    container_name: cloudserver
+    container_name: pdf_me_cloudserver
     image: zenko/cloudserver
     ports:
       - '8000:8000'
