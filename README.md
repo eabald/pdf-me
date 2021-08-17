@@ -14,6 +14,12 @@ To start system in development mode there is necessary to have installed couple 
 
 ### Start procedure
 
+First of all you have to prepare environment variables for ewach service. Simply in each service folder execute
+
+```bash
+cp .env.example .env
+```
+
 To start system in development mode first of all install main dependencies. In project root run:
 
 ```bash
