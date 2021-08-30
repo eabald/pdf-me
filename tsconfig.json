@@ -11,6 +11,7 @@
     { "path": "./packages/pdf/templates" },
     { "path": "./packages/pdf/document-generation" },
     { "path": "./packages/pdf/files" },
-    { "path": "./packages/schedular" }
+    { "path": "./packages/schedular" },
+    { "path": "./packages/billing/payments" }
   ]
 }
