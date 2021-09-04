@@ -25,12 +25,6 @@
 [submodule "packages/pdf/document-generation"]
 	path = packages/pdf/document-generation
 	url = git@github.com:eabald/pdf-me-pdf-document-generation.git
-[submodule "packages/billing/billings"]
-	path = packages/billing/billings
-	url = git@github.com:eabald/pdf-me-billing-billings.git
-[submodule "packages/billing/payments"]
-	path = packages/billing/payments
-	url = git@github.com:eabald/pdf-me-billing-payments.git
 [submodule "packages/schedular"]
 	path = packages/schedular
 	url = git@github.com:eabald/pdf-me-schedular.git
@@ -40,3 +34,6 @@
 [submodule "packages/shared"]
 	path = packages/shared
 	url = git@github.com:eabald/pdf-me-shared.git
+[submodule "packages/payments"]
+	path = packages/payments
+	url = git@github.com:eabald/pdf-me-payments.git
