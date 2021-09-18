@@ -60,19 +60,6 @@ services:
     depends_on:
         - redis
 
-  cloudserver:
-    container_name: pdf_me_cloudserver
-    image: zenko/cloudserver
-    ports:
-      - '8000:8000'
-    env_file:
-      - cloudserver.env
-    networks:
-      - mainNet
-    volumes:
-      - cloudserverData:/usr/src/app/localData
-      - cloudserverMetadata:/usr/src/app/localMetadatas
-
 networks:
   mainNet:
     driver: bridge
@@ -80,5 +67,3 @@ volumes:
   dbData:
   rabbitmqData:
   pgadminData:
-  cloudserverData:
-  cloudserverMetadata:
